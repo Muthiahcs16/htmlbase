@@ -1,0 +1,27 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    color: black;
+}
+ol{
+    color: brown;
+}
+ul{
+    color: brown;
+}
+dl{
+    color: brown;
+}
+p{
+    color: blue;
+}
+em{
+    color: crimson;
+}
+strong{
+    color: blueviolet;
+}
+address{
+    color: tomato;
+}
