@@ -1,0 +1,27 @@
+body{
+    background-color: hotpink;
+}
+h1{
+    color: black;
+}
+ol{
+    color: brown;
+}
+ul{
+    color: brown;
+}
+dl{
+    color: brown;
+}
+p{
+    color: blue;
+}
+em{
+    color: crimson;
+}
+strong{
+    color: grey;
+}
+address{
+    color: tomato;
+}
