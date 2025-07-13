@@ -1,0 +1,9 @@
+body{
+    background-color: plum;
+    color: black;
+}
+table,th,td,caption{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+}
