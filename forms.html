@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Muthu">
+        <meta name="Desc" content="A simple form about Personl Info">
+        <title>Form</title>
+        <link rel="icon" href="frm.jpg" type="image/icon">
+        <link rel="stylesheet" href="forms.css" type="text/css">
+    </head>
+    <body>
+        <h1>Please Register Below!</h1>
+        <form action="https://muthiahprabhaharan.github.io/my_portfolio/" method="post">
+            <fieldset>
+                <legend><h2>Personl Info</h2></legend>
+                <p>
+                    <label for="firstName">FirstName</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Chris" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="lastName">LastName</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Evans" required autocomplete="on">
+                </p>
+                <p>
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail" placeholder="chris2evans@gmail.com" required autocomplete="on">
+                </p>
+                <p>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="9876543210" required pattern="[6-9]{10}">
+                </p>
+                <p>
+                    <label for="decade">Present Decade</label>
+                    <input type="number" name="decade" id="decade" min="1950" max="2050" step="10" value="2000">
+                </p>
+                <p>
+                    <label for="color">Favourite Color</label>
+                    <select name="color" id="color">
+                      <optgroup label="colors">
+                         <option value="Red" selected>RED</option>
+                         <option value="Green">GREEN</option>
+                         <option value="Blue">BLUE</option>
+                         <option value="Yellow">YELLOW</option>
+                         <option value="Black">BLACK</option>
+                         <option value="White">WHITE</option>
+                         <option value="Grey">GREY</option>
+                         <option value="Violet">VIOLET</option>
+                         <option value="Pink">PINK</option>
+                         <option value="SkyBlue">SKYBLUE</option>
+                      </optgroup>
+                    </select>
+                </p>
+                <p>
+                   <label for="song">Favourite Song</label>
+                   <input type="text" name="song" id="song" list="songs">
+                   <datalist id="songs">
+                         <option value="Let Her Go">
+                         <option value="Sky Fall">
+                         <option value="I Walk Alone">
+                         <option value="Despacito">
+                         <option value="Believer">
+                         <option value="Faded">
+                   </datalist>
+                </p>
+                <p>
+                    <label for="food">Favourite Food</label>
+                    <br>
+                    <input type="radio" name="food" id="pasta">
+                    <label for="pasta">Pasta</label>
+                    <br>
+                    <input type="radio" name="food" id="noodle">
+                    <label for="noodle">Noodle</label>
+                    <br>
+                    <input type="radio" name="food" id="rice">
+                    <label for="rice">Rice</label>
+                    <br>
+                    <input type="radio" name="food" id="other">
+                    <label for="other">Other</label>
+                </p>
+                <p>
+                    <label for="pet">Favourite Pet</label>
+                    <br>
+                    <input type="checkbox" name="pet" id="dog">
+                    <label for="dog">Dog</label>
+                    <br>
+                    <input type="checkbox" name="pet" id="cat">
+                    <label for="cat">Cat</label>
+                    <br>
+                    <input type="checkbox" name="pet" id="parrot">
+                    <label for="parrot">Parrot</label>
+                    <br>
+                    <input type="checkbox" name="pet" id="otherpet">
+                    <label for="otherpet">Other</label>
+                </p>
+                <p>
+                  <label for="message"><h3>Message</h3></label>
+                  <textarea name="message" id="message" placeholder="Please write your message here!" rows="10" cols="80"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
