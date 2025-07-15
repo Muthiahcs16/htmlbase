@@ -1,0 +1,45 @@
+/* *{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 24px;
+    font-style: italic;
+} */
+body{
+    font-size: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+h1, h2{
+    color:magenta;
+}
+p{
+    font-family: monospace;
+    color:snow;
+}
+span{
+    background-color: violet;
+    color: aliceblue;
+    font-style: oblique;
+}
+.article_1{
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#article_2{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.article_3{
+    font-size: large;
+    font-style: italic;
+    color: beige;
+}
+.high{
+    background-color: goldenrod;
+    color: crimson;
+    font-style: italic;
+    font-size: large;
+}
+.gray p{
+    color: blue;
+}
